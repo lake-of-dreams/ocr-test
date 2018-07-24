@@ -7,7 +7,7 @@ build:
    - internal/docker-push:
        username: $USERNAME
        password: $PASSWORD
-       registry: https://iad.ocir.io
+       registry: https://iad.ocir.io/v2
        repository: rsinghal/test/test
        tag: latest
    - internal/docker-push:

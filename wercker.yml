@@ -14,5 +14,5 @@ build:
        username: $USERNAME
        password: $PASSWORD
        registry: https://phx.ocir.io
-       repository: rsinghal/test/test
+       repository: odx-pipelines/rsinghal/test/test
        tag: latest    

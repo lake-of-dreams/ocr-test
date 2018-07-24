@@ -4,12 +4,12 @@ build:
    - script:
        name: print hello world
        code: echo 'hi sun'
-   - internal/docker-push:
-       username: $USERNAME
-       password: $PASSWORD
-       registry: https://iad.ocir.io/v2
-       repository: rsinghal/test/test
-       tag: latest
+   #- internal/docker-push:
+    #   username: $USERNAME
+     #  password: $PASSWORD
+      # registry: https://iad.ocir.io/v2
+       #repository: rsinghal/test/test
+       #tag: latest
    - internal/docker-push:
        username: $USERNAME
        password: $PASSWORD
